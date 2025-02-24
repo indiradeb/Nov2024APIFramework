@@ -44,7 +44,7 @@ public class GetUserTest extends BaseTest{
 		List<String> userEmail = js.readList(gorestResponse, "$..[3].email");
 		System.out.println(userEmail);
 		Assert.assertTrue(userEmail.contains("adripathi_tagore@greenholt-mertz.test"));
-		
+		//add more assertions
 	}
 	
 

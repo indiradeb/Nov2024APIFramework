@@ -45,7 +45,7 @@ public class GetUserTest extends BaseTest{
 		System.out.println(userEmail);
 		Assert.assertTrue(userEmail.contains("adripathi_tagore@greenholt-mertz.test"));
 		//add more assertions
-		//add 2 assertions
+		//add 2 assertions.
 	}
 	
 

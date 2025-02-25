@@ -49,7 +49,7 @@ public class GetUserTest extends BaseTest{
 	}
 	
 
-	@Test(priority=2, enabled=false)
+	@Test(priority=2, enabled=true)
 	public void getUser() {
 	/*	restClient.get(GOREST_ENDPOINT+"/"+7503114, false,true)//"/public/v2/users/7494978"
 		          .then().log().all()

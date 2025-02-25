@@ -70,7 +70,7 @@ public class GetUserTest extends BaseTest{
 	public void getUser_with_queryParamTest() {
 		
 		Map<String,Object> queryParams = new HashMap<String, Object>();
-		queryParams.put("name","indira");
+		queryParams.put("name","Pranavi");
 		queryParams.put("status","active");
 		
 		restClient.get(GOREST_ENDPOINT,queryParams, null,false, true)

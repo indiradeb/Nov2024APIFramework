@@ -49,7 +49,7 @@ public class GetUserTest extends BaseTest{
 	}
 	
 
-	@Test(priority=2, enabled=false)
+	@Test(priority=2, enabled=true)
 	public void getUser() {
 	/*	restClient.get(GOREST_ENDPOINT+"/"+7503114, false,true)//"/public/v2/users/7494978"
 		          .then().log().all()
@@ -70,7 +70,7 @@ public class GetUserTest extends BaseTest{
 	public void getUser_with_queryParamTest() {
 		
 		Map<String,Object> queryParams = new HashMap<String, Object>();
-		queryParams.put("name","indira");
+		queryParams.put("name","Pranavi");
 		queryParams.put("status","active");
 		
 		restClient.get(GOREST_ENDPOINT,queryParams, null,false, true)

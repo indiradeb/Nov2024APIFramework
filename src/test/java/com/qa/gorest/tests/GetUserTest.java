@@ -23,6 +23,7 @@ public class GetUserTest extends BaseTest{
 	public void getUserSetUp() {
 		
 		restClient = new RestClient(prop, baseURI);
+		rest clinet is addded
 	}*/
 	
 	@Test(priority=3)
